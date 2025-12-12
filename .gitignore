@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# macOS & Windows OS files
+.DS_Store
+Thumbs.db
+
+# Audio/Video Large Files (prevent accidental 100MB files)
+#*.wav
+*.mp3
+*.flac
+*.aiff
+*.ogg
+*.m4a
+
+# Optional: data folder exclusions (if storing large datasets)
+data/
+datasets/
